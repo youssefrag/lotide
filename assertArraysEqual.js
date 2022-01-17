@@ -8,10 +8,4 @@ const assertArraysEqual = function(a1, a2) {
   }
 };
 
-// // Tests
-// assertArraysEqual(["1", "2", "3"], ["1", "2", 3]);
-// assertArraysEqual(["1", "2", "3"], ["1", "2", "3"]);
-// assertArraysEqual([1, 2, 3], [1, 2, 31]);
-// assertArraysEqual([1, 2, 3], [1, 2, 3]);
-
 module.exports = assertArraysEqual
